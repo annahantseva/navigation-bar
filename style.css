@@ -1,0 +1,44 @@
+body {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    margin: 0;
+    font: 16px Arial;
+}
+
+header {
+    width: 100%;
+    padding: 2%;
+    background-color: white;
+    box-shadow: #D8D8D8 0px 2px 4px 0px;
+    position: fixed;
+}
+
+article {
+    padding: 4%;
+}
+
+p, h1 {
+    width: 50%;
+    text-align: left;
+    padding-left: 25%;
+    margin: 3%;
+}
+
+a {
+    text-decoration: none;
+    padding: 7px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: black;
+    color:white;
+    border-radius: 15px;
+}
+
+
