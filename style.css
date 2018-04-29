@@ -1,7 +1,4 @@
 body {
-    width: 100%;
-    height: 100%;
-    text-align: left;
     margin: 0;
     font: 16px Arial;
 }
@@ -15,23 +12,25 @@ header {
 }
 
 article {
-    padding: 4%;
+    padding: 7% 0 0;
+}
+
+.links-wrapper, article {
+    width: 50%;
+    margin: 0 auto;
 }
 
 p, h1 {
-    width: 50%;
-    text-align: left;
-    padding-left: 25%;
     margin: 3%;
 }
 
 a {
     text-decoration: none;
     padding: 7px;
+    color: black;
 }
 
 a:visited {
-    text-decoration: none;
     color: black;
 }
 
@@ -41,4 +40,6 @@ a:hover {
     border-radius: 15px;
 }
 
-
+a:first-child {
+    margin-left: -14px;
+}
